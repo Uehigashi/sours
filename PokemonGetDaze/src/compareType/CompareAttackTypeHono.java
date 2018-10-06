@@ -7,10 +7,9 @@ import main.Type;
 public class CompareAttackTypeHono implements CompareType {
 
 	@Override
-	public Double compareType(Type enemyType) {
+	public Double compareType(Type enemySkillType) {
 		// TODO 自動生成されたメソッド・スタブ
 		Map<Type, Double> typeTable = new Output_TypeTable().getHonoTypeTable();
-		return typeTable.get(enemyType);
+		return typeTable.get(enemySkillType);
 	}
-
 }

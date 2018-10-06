@@ -33,6 +33,4 @@ public class AttackSkill {
 	public void setAttackPower(double attackPower) {
 		this.attackSkillPower = attackPower;
 	}
-	
-	
 }
